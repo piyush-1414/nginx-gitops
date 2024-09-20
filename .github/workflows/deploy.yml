@@ -19,5 +19,5 @@ jobs:
     - name: Deploy application
       run: |
         cd /home/ubuntu/nginx-gitops
-        git pull origin main
+        git pull https://github.com/piyush-1414/nginx-gitops.git main
         ./deploy.sh
