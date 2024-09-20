@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Pull the latest changes from the Git repository
-git pull origin main
+git pull https://github.com/piyush-1414/nginx-gitops.git main
 
 # Install NGINX if not installed
 if ! [ -x "$(command -v nginx)" ]; then
